@@ -1,0 +1,932 @@
+@media (max-width: 1750px) {}
+
+@media (max-width: 1500px) {
+    .arrows-block .arrow-left {
+        margin-right: 15px;
+    }
+    .right-block.col-lg-1 {
+        width: 12%;
+    }
+    .info-block__slider.col-lg-10 {
+        width: 80%;
+    }
+    .footer__logo-wrapper img {
+        width: 174px;
+    }
+    footer.footer .footer__logo-wrapper:not(footer.footer .footer__logo-wrapper.right-logo) {
+        margin-right: 44px;
+    }
+    .header__menu__item hover-link:not(:last-child),
+    .footer__menu__item:not(:last-child) {
+        margin-right: 40px;
+    }
+    .contact-section .about-us-page__title {
+        width: 26%;
+    }
+    .contact-section__wrap {
+        width: 46%;
+    }
+    .posters .posters__wrapper .posters__wrapper__poster__img {
+        height: 370px;
+    }
+    .artists-detail-section .booking-agent h2,
+    .artists-detail-section .booking-agent h3,
+    .artists-detail-section .booking-agent .booking-agent__info a {
+        font-size: 19px;
+        margin-bottom: 0px;
+    }
+}
+
+@media(max-width: 1450px) {
+    .footer__social-links .footer__social-links__item {
+        margin-right: 20px;
+    }
+    footer.footer .footer__logo-wrapper {
+        margin-right: 42px;
+    }
+    footer.footer .footer__logo-wrapper img {
+        max-width: 150px;
+    }
+    .posters .posters__wrapper .small-poster.posters__wrapper__poster {
+        width: 20%;
+    }
+    .performances-info__player iframe {
+        width: 290px;
+    }
+}
+
+@media(max-width: 1400px) {
+    footer .footer__main-block .footer__logos-wrapper {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 47px;
+    }
+    footer.footer .footer__main-block {
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    footer.footer .footer__logo-wrapper img {
+        max-width: 215px;
+    }
+    footer.footer .footer-left-block {
+        margin-right: 0;
+    }
+    .footer-line {
+        top: 69%;
+    }
+    .contact-section .about-us-page__title {
+        width: 28%;
+    }
+}
+
+@media(max-width: 1300px) {
+    .posters .posters__wrapper .posters__wrapper__poster,
+    .posters .posters__wrapper .small-poster.posters__wrapper__poster {
+        width: 30%;
+    }
+    .container-fluide {
+        padding: 0 20px;
+    }
+    .posters .posters__wrapper .small-poster .posters__wrapper__poster__img {
+        height: 370px;
+    }
+}
+
+@media(max-width: 1250px) {
+    .header__menu__item hover-link {
+        margin-right: 29px !important;
+    }
+    footer.footer .footer__info-block .footer__info-block__item {
+        font-size: 14px;
+    }
+}
+
+@media(max-width: 1200px) {
+    .left-agent {
+        width: 100%;
+        display: flex;
+        flex-flow: column;
+    }
+    .left-block {
+        width: 100%;
+        text-align: center;
+    }
+    .artist-link {
+        margin-right: -30px;
+        margin-bottom: 25px;
+    }
+    .artists-detail-section .booking-agent {
+        flex-flow: column;
+        align-items: flex-start;
+        text-align: center;
+    }
+    h3.booking-agent__name:before {
+        display: none;
+    }
+    .artists-detail-section .booking-agent .booking-agent__name {
+        width: 100%;
+        font-size: 27px;
+        justify-content: space-around;
+    }
+    h3.booking-title {
+        width: 100%;
+    }
+    .artists-detail-section .booking-agent .booking-agent__info a {
+        margin: 0px;
+        padding: 0px;
+        font-size: 18px;
+    }
+    .artists-detail-section .booking-agent .booking-agent__info {
+        flex-flow: column;
+        margin-top: 24px;
+        width: 100%;
+    }
+    .artists-detail-section .booking-agent .booking-agent__info br {
+        display: none;
+    }
+    .artists-detail-section .booking-agent h3.booking-title {
+        font-size: 15px;
+        margin-bottom: 8px;
+        opacity: 0.5;
+    }
+    header.header .header__logo-wrapper {
+        width: 410px;
+    }
+    .arrows-block {
+        padding: 0px;
+    }
+    .performances-list__item__info input[type="button"] {
+        padding: 10px 31px;
+        font-size: 17px;
+    }
+    .performances-list__item__info p {
+        font-size: 21px;
+    }
+    .performances-list__item__info p.gray-txt {
+        font-size: 15px;
+    }
+    .posters .posters__wrapper .small-poster.posters__wrapper__poster {
+        width: 30%;
+    }
+    .posters .posters__wrapper .small-poster .posters__wrapper__poster__img {
+        height: 373px;
+    }
+    input[type=button].detail-btn {
+        padding: 10px 38px;
+    }
+    .artist-info {
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+    }
+    .artist-info .right-block {
+        padding-left: 0px;
+        margin-top: 15px;
+        width: 100%;
+        flex-flow: column;
+        align-items: center;
+    }
+    .artist-social .artist-social__item:not(:last-child) {
+        margin-right: 29px;
+    }
+    .header__logo-wrapper__txt {
+        display: none;
+    }
+    .contact-section {
+        flex-direction: column;
+    }
+    .contact-section__item {
+        margin-bottom: 63px;
+    }
+    .contact-section__items {
+        margin-top: 43px;
+        width: 100%;
+    }
+    .contact-section__wrap {
+        width: 50%;
+    }
+    .posters .posters__wrapper .posters__wrapper__poster__img,
+    .posters .posters__wrapper .small-poster .posters__wrapper__poster__img {
+        height: 349px;
+    }
+}
+
+@media(max-width: 1150px) {
+    footer.footer .footer__main-block {
+        flex-wrap: wrap;
+    }
+    .performances .row {
+        display: flex;
+        flex-direction: column;
+    }
+    .performances .col-4 {
+        display: flex;
+        margin-top: 65px;
+        width: 100%;
+        justify-content: center;
+    }
+    .performances .col-4 {
+        display: flex;
+        margin-top: 65px;
+    }
+    .performances-info {
+        margin: 0 auto;
+    }
+    .performances-info__player {
+        float: initial;
+        right: inherit
+    }
+    .performances-info__player iframe {
+        width: 375px;
+    }
+    .performances .col-8 {
+        width: 100%;
+    }
+    .artist-content__video iframe {
+        width: 100%;
+    }
+}
+
+@media(max-width: 1110px) {
+    .header .header__menu .header__menu__item hover-link {
+        margin-right: 17px !important;
+    }
+    header.header {
+        padding: 45px 23px;
+    }
+    .artists-detail-section .booking-agent .booking-agent__right-block {
+        width: 100%;
+    }
+    .artists-detail-section .booking-agent .booking-agent__right-block .booking-agent__right-block-date {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+}
+
+@media(max-width: 1010px) {
+    .footer__menu .footer__menu__item {
+        font-size: 15px;
+    }
+    footer.footer .footer__main-block {
+        align-items: flex-start;
+    }
+    .footer-phone-wrapper {
+        width: auto;
+        order: initial;
+        margin-top: 0;
+    }
+    nav.footer__menu,
+    .footer__social-links {
+        align-items: flex-start;
+    }
+    .footer__social-links {
+        transform: translateY(-5px);
+    }
+}
+
+@media(max-width: 992px) {
+    header.header .header__logo-wrapper {
+        width: auto;
+    }
+    .footer__social-links .footer__social-links__item {
+        margin: 0 14px;
+    }
+    .contact-section .about-us-page__title {
+        width: 100%;
+    }
+    .cooperation .wpcf7-form .cooperation-form__left-block {
+        width: 100%;
+        max-width: 100%;
+    }
+    .cooperation .wpcf7-form .cooperation-form__right-block {
+        max-width: 100%;
+        margin-left: 0px;
+        width: 100%;
+    }
+    .container-fluide {
+        padding: 0 30px;
+    }
+    header.header {
+        align-items: flex-start;
+    }
+    .header-left-block .navbar {
+        justify-content: end;
+    }
+    .posters .posters__header .posters__header__title {
+        font-size: 36px;
+        line-height: 42px;
+    }
+    .posters .posters__header .posters__header__btn input {
+        padding: 11px 39px;
+    }
+    .header .header__menu .header__menu__item hover-link {
+        font-size: 15px !important;
+    }
+    header.header .header__logo-wrapper {
+        order: -1;
+        margin: 0 auto;
+    }
+    .header__logo-wrapper img {
+        max-width: 156px;
+    }
+    a.header__social-links__item:not(:last-child) {
+        margin-right: 19px;
+    }
+    a.header__social-links__item:last-child {
+        margin-right: 0;
+    }
+    .navbar-nav {
+        display: none !important;
+    }
+    .header__social-links {
+        margin-top: 11px;
+    }
+    .d-lg-only {
+        display: none !important;
+    }
+    header.header .header-left-block {
+        position: absolute;
+        right: 14px;
+        align-items: center;
+    }
+    nav.header__menu {
+        justify-content: end;
+    }
+    header.header {
+        padding: 26px 40px;
+    }
+    header.header {
+        position: relative;
+    }
+    .navbar {
+        width: 100%;
+    }
+    .footer-right-block {
+        margin-top: 2px;
+    }
+    .posters .posters__wrapper .posters__wrapper__poster__img,
+    .posters .posters__wrapper .small-poster .posters__wrapper__poster__img {
+        height: 412px;
+        background-size: cover;
+    }
+    .posters .posters__wrapper {
+        margin-top: 25px;
+        padding-left: calc(var(--bs-gutter-x) * .5);
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .artists-detail-section .posters .posters__wrapper {
+        justify-content: center;
+        margin-top: 68px;
+    }
+    .artists-detail-section .posters .posters__wrapper .posters__wrapper__poster {
+        margin-right: 0;
+    }
+    .about-us-page__title {
+        line-height: 52px;
+    }
+    .about-us-page__descr {
+        margin-top: 21px;
+    }
+    .posters .posters__wrapper .posters__wrapper__poster,
+    .posters .posters__wrapper .small-poster.posters__wrapper__poster {
+        width: 47%;
+    }
+    .d-lg-none {
+        display: none !important;
+    }
+    .info-block {
+        flex-direction: column;
+        overflow: hidden;
+    }
+    .info-block__slider .info-slide {
+        flex-direction: column;
+    }
+    .info-block__slider {
+        margin-top: 24px;
+    }
+    input.detail-btn {
+        margin-top: 24px;
+    }
+    .right-block {
+        margin-top: 56px;
+    }
+    .right-block.col-lg-1 {
+        width: 100%;
+    }
+    .info-block .right-block .arrows-block {
+        justify-content: center;
+    }
+    .info-block .info-block__slider {
+        width: 100%;
+    }
+    .info-block .col-lg-10 {
+        width: 100%;
+    }
+}
+
+@media(max-width: 880px) {
+    footer.footer .footer__main-block {
+        align-items: center;
+        flex-direction: column;
+    }
+    footer .footer__main-block .footer__logos-wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-center-block {
+        margin-top: 33px;
+        margin-right: 0;
+    }
+    .footer-phone-wrapper {
+        margin-right: 0;
+    }
+    .footer-right-block {
+        margin-top: 27px;
+    }
+    .footer-line {
+        top: 68%;
+    }
+    footer.footer .footer__logo-wrapper {
+        margin-right: 0 !important;
+    }
+    footer.footer .footer__info-block {
+        flex-direction: column;
+    }
+    footer.footer .footer__info-block .footer__info-block__item {
+        margin-top: 23px;
+    }
+}
+
+@media(max-width: 788px) {
+    .posters .posters__wrapper .posters__wrapper__poster,
+    .posters .posters__wrapper .small-poster.posters__wrapper__poster {
+        width: 100%;
+        margin: 0;
+        margin-bottom: 20px;
+    }
+    .posters .posters__header .posters__header__title {
+        font-size: 34px;
+        line-height: 39px;
+    }
+    .posters .posters__header .posters__header__btn input {
+        padding: 11px 26px;
+    }
+    .performances-list__item__info .performances-list__item__info__sm-buy-button {
+        display: inline-block;
+    }
+    .artists-detail-section .booking-agent .booking-agent__titile {
+        font-size: 35px;
+    }
+    .artists-detail-section .booking-agent .left-block {
+        margin-right: 0;
+        text-align: center;
+    }
+    .artists-detail-section .booking-agent .right-block {
+        margin-top: 24px;
+        text-align: center;
+    }
+    .artists-detail-section .booking-agent .booking-agent__btn {
+        margin-right: 0;
+        margin-top: 10px;
+    }
+    .performances__title {
+        text-align: center;
+    }
+    .artists-detail-section .top-banner {
+        height: 292px;
+        background-size: cover;
+    }
+    .artists-detail-section-h1 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .artists-detail-section .booking-agent {
+        margin-top: 41px;
+    }
+    section.performances {
+        margin-top: 60px;
+        padding-bottom: 60px;
+    }
+    .performances .col-4 {
+        width: 100%;
+        padding-left: 0;
+    }
+    .performances-info .performances-info__social {
+        margin-bottom: 29px;
+    }
+    .artists-detail-section .booking-agent .booking-agent__info {
+        margin-top: 7px;
+    }
+    .cooperation .col-7 {
+        width: 100%;
+    }
+    .about-us-page__title {
+        font-size: 36px;
+    }
+    .about-us-page__title {
+        line-height: 46px;
+    }
+    .posters .top-banner {
+        height: 274px;
+        padding-bottom: 0;
+    }
+    .contact-section__item {
+        margin-bottom: 53px;
+    }
+    .contact-section__items {
+        flex-direction: column;
+    }
+    .contact-section__wrap {
+        width: 100%;
+    }
+    .about-us-page__title {
+        font-size: 26px;
+    }
+    .contacts {
+        margin-top: 44px;
+    }
+    .contact-section__item a {
+        font-size: 24px;
+    }
+    .contact-section-links {
+        margin-top: 3px;
+    }
+    .contacts {
+        padding-bottom: 44px;
+    }
+    .cooperation .cooperation__title {
+        font-size: 30px;
+        text-align: start;
+    }
+    .cooperation .cooperation-form {
+        margin-top: 28px;
+    }
+    .contact-section-links__item img {
+        max-width: 28px;
+    }
+    .contact-section__item a {
+        margin-right: 21px;
+    }
+}
+
+@media(max-width: 768px) {
+    footer.footer {
+        padding: 40px 31px;
+    }
+    footer.footer .footer__logo-wrapper {
+        margin-right: 30px;
+    }
+    footer.footer .footer-left-block {
+        flex-direction: column;
+    }
+    footer.footer .footer__info-block {
+        margin-top: 41px;
+        flex-wrap: wrap;
+    }
+    footer.footer .footer__info-block .footer__info-block__item {
+        font-size: 12px;
+        width: 50%;
+        margin-top: 10px;
+        text-align: center;
+    }
+    .header__logo-wrapper__txt {
+        font-size: 11px;
+        padding: 0 9px;
+    }
+    header.header .header__logo-wrapper.navbar-brand {
+        transform: translateY(2px);
+    }
+    .container-fluide {
+        padding: 0 13px;
+    }
+    .posters__header__title {
+        margin-left: 9px;
+    }
+    .artists-detail-section .booking-agent .booking-agent__right-block {
+        flex-direction: column;
+    }
+    .artists-detail-section .booking-agent .booking-agent__right-block .booking-agent__right-block-date {
+        margin-top: 20px;
+    }
+    .artists-detail-section .booking-agent .booking-agent__name,
+    .artists-detail-section .booking-agent .booking-agent__titile,
+    .artists-detail-section .booking-agent .booking-agent__info {
+        margin-right: 0;
+    }
+    .artists-detail-section .booking-agent .booking-agent__right-block {
+        align-items: flex-start;
+    }
+    .artists-detail-section .booking-agent .booking-agent__btn {
+        margin-top: 22px;
+    }
+    .performances-list {
+        padding: 0 14px;
+    }
+    .performances-list .performances-list__item {
+        flex-wrap: wrap;
+    }
+    .performances-list__item__info.btns-wrapper {
+        margin-top: 35px;
+    }
+    .performances-list__item__info.date-info,
+    .performances-list__item__info-wrap {
+        width: 20%;
+    }
+    .performances-list .performances-list__item {
+        padding: 21px 15px;
+    }
+    .performances-list__item__info.city-info,
+    .performances-list__item__info input[type="button"] {
+        width: 60%;
+    }
+    .performances-list__item__info.btns-wrapper {
+        justify-content: space-between;
+        width: 100%;
+    }
+    .performances-list__item__info.btns-wrapper {
+        margin-top: 22px;
+    }
+    .performances-list__item__info p {
+        font-size: 19px;
+    }
+    .performances-list__item__info p.gray-txt {
+        font-size: 14px;
+    }
+    .performances .container-fluide {
+        padding: 0;
+    }
+    .artist-info .right-block {
+        margin-top: 23px;
+    }
+    .artist-social .artist-social__item:not(:last-child) {
+        margin-right: 25px;
+    }
+}
+
+@media(max-width: 573px) {
+    section.posters {
+        padding: 0 29px;
+    }
+    .artists-detail-section .top-banner {
+        height: 197px;
+    }
+    .performances .col-4 {
+        padding: 0 15px;
+    }
+    section.posters.artists-detail-section {
+        padding: 56px 0;
+    }
+    .artists-detail-section-h1 {
+        font-size: 37px;
+        line-height: 47px;
+    }
+    .performances-list {
+        padding: 0;
+    }
+    section.performances {
+        margin-top: 45px;
+    }
+}
+
+@media(max-width: 568px) {
+    .artist-content__video {
+        margin-top: 20px;
+    }
+    .artist-content__video iframe {
+        height: 310px;
+    }
+    .posters .posters__header .posters__header__title {
+        font-size: 38px;
+        line-height: 31px;
+    }
+    .posters .posters__header {
+        flex-direction: column;
+        align-items: start;
+    }
+    .posters__header__btn {
+        margin-top: 30px;
+    }
+    .artists-detail-section .posters .posters__wrapper .posters__wrapper__poster {
+        width: 100%;
+    }
+    .posters .posters__header .posters__header__btn input {
+        padding: 9px 24px;
+        font-size: 16px;
+    }
+    header.header {
+        padding: 26px 38px;
+    }
+    .posters .posters__wrapper .small-poster .posters__wrapper__poster__img {
+        height: 406px;
+    }
+    .cooperation .cooperation-form {
+        flex-direction: column;
+        align-items: center;
+    }
+    .cooperation .cooperation-form .cooperation-form__left-block,
+    .cooperation .cooperation-form .cooperation-form__right-block {
+        max-width: initial;
+        margin: 0;
+    }
+    .cooperation .cooperation-text {
+        margin: 0 auto;
+        width: 75%;
+    }
+    .artists-detail-section .posters .posters__wrapper .posters__wrapper__poster__img {
+        height: 471px;
+    }
+    .cooperation .cooperation__title {
+        font-size: 26px;
+    }
+    .cooperation .cooperation-form {
+        margin-top: 22px;
+    }
+    .contact-section__item a {
+        font-size: 20px;
+    }
+}
+
+@media(max-width: 482px) {
+    .performances-info__player iframe {
+        width: 310px;
+        margin: 0 auto;
+    }
+    .performances-info__player {
+        display: flex;
+        justify-content: center;
+    }
+    .posters .posters__header .posters__header__btn input {
+        padding: 6px 16px;
+        font-size: 14px;
+    }
+    .posters .posters__header {
+        padding: 0 10px;
+    }
+    .posters .posters__header .posters__header__title {
+        margin: 0;
+    }
+    header.header {
+        padding: 26px 25px;
+    }
+    section.posters {
+        padding: 0;
+    }
+    .performances-list__item__info p.gray-txt {
+        font-size: 12px;
+    }
+    .performances-list__item__info p {
+        font-size: 18px;
+    }
+    .performances-list__item__info .performances-list__item__info__sm-buy-button {
+        width: 42px;
+        height: 41px;
+    }
+    .performances-list__item__info__img {
+        padding: 10px 10px;
+    }
+    .performances-list__item__info a.button {
+        padding: 8px 34px;
+        font-size: 14px;
+    }
+    .performances-list__item.not-active .performances-list__item__info .not-active-tour-btn {
+        padding: 13px 50px;
+    }
+    .artists-detail-section .booking-agent .booking-agent__titile {
+        font-size: 28px;
+    }
+    .artists-detail-section .booking-agent .booking-agent__btn {
+        padding: 9px 21px;
+        font-size: 17px;
+    }
+    .artists-detail-section .booking-agent .booking-agent__name {
+        font-size: 22px;
+        line-height: 25px;
+    }
+    .performances__title {
+        font-size: 32px;
+        line-height: 34px;
+    }
+    .performances .performances-info p {
+        font-size: 21px;
+        line-height: 20px;
+    }
+    .performances-info .performances-info__social {
+        margin-bottom: 19px;
+    }
+    .artists-detail-section .posters .posters__wrapper {
+        justify-content: center;
+        padding: 0 10px;
+        margin-top: 48px;
+    }
+    .about-us-page__title {
+        line-height: 37px;
+    }
+    .about-us-page__title {
+        font-size: 29px;
+    }
+    .posters .posters__wrapper .posters__wrapper__poster__img,
+    .posters .posters__wrapper .small-poster .posters__wrapper__poster__img {
+        height: 315px;
+    }
+}
+
+@media(max-width: 456px) {
+    footer.footer .footer__menu a {
+        font-size: 16px;
+        padding: 9px 0px;
+    }
+    .footer__menu .menu {
+        flex-flow: column;
+    }
+    .footer-right-block {
+        margin-top: 32px;
+    }
+    .footer-line {
+        display: none;
+    }
+    .posters .posters__wrapper {
+        margin-top: 31px;
+        padding: 0;
+    }
+    .posters .posters__wrapper .posters__wrapper__poster__info {
+        margin-top: 14px;
+    }
+    .cooperation .cooperation-form .cooperation-form__left-block,
+    .cooperation .cooperation-form .cooperation-form__right-block,
+    .cooperation .cooperation-text {
+        width: 96%;
+    }
+    .artist-info .left-block {
+        text-align: center;
+        margin: 0 auto;
+    }
+    .artist-info .right-block {
+        margin: 0 auto;
+        margin-top: 23px;
+        flex-direction: column;
+    }
+    .artist-social {
+        margin-top: 29px;
+    }
+    .artist-link {
+        margin-right: 0;
+        padding-left: 7px;
+    }
+    .artist-link::before {
+        left: -28px;
+    }
+    .artists-detail-section-h1 {
+        font-size: 26px;
+        font-weight: 500;
+    }
+    .artists-detail-section .booking-agent .booking-agent__info a {
+        font-size: 16px;
+    }
+    .artists-detail-section .booking-agent .booking-agent__name {
+        font-size: 18px;
+    }
+    .breadcrumbs a.breadcrumbs__item {
+        font-size: 14px;
+    }
+    .artists-detail-section .booking-agent .booking-agent__titile {
+        font-weight: 500;
+    }
+}
+
+@media(max-width: 380px) {
+    .posters .posters__header .posters__header__title {
+        font-size: 30px;
+        line-height: 24px;
+    }
+    .posters .posters__header .posters__header__btn input {
+        padding: 5px 11px;
+        font-size: 14px;
+    }
+    p.posters__wrapper__poster__info__name {
+        font-size: 16px;
+        margin-bottom: 4px;
+    }
+    .posters .posters__wrapper p.posters__wrapper__poster__info__date {
+        font-size: 16px;
+        margin-bottom: 0;
+    }
+    .posters .posters__wrapper .posters__wrapper__poster {
+        margin-bottom: 25px;
+    }
+    .performances-list__item__info p {
+        font-size: 17px;
+        margin-bottom: 0;
+    }
+    .performances-list__item__info .performances-list__item__info__sm-buy-button {
+        width: 37px;
+        height: 35px;
+    }
+    .posters .top-banner {
+        height: 234px;
+    }
+    .footer__menu .footer__menu__item:not(:last-child) {
+        margin-right: 22px;
+    }
+}

@@ -1,0 +1,1355 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+* {
+    font-family: Montserrat;
+}
+
+body {
+    color: #000;
+    font-family: Montserrat;
+}
+
+a {
+    text-decoration: none !important;
+    color: #000;
+}
+
+a.button {
+    cursor: pointer;
+}
+
+.container-fluide {
+    padding: 0 60px;
+}
+
+input[type=button].white-btn,
+a.white-btn {
+    border: 3px solid #fff;
+    color: #fff;
+    cursor: pointer;
+}
+
+input[type=button].white-btn:hover,
+a.white-btn:hover {
+    background: #fff;
+    color: #000;
+}
+
+input[type=button],
+.button {
+    padding: 13px 16px;
+    color: #000;
+    border: 3px solid #000000;
+    background: none;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    transition: 0.5s;
+}
+
+.button:hover {
+    color: #fff;
+    background: #000000;
+}
+
+a.button.detail-btn {
+    padding: 13px 53px;
+}
+
+.txt-underline {
+    text-decoration: underline;
+}
+
+a.txt-underline {
+    text-decoration: underline !important;
+}
+
+header.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+header.header .header-left-block,
+footer.footer .footer-left-block {
+    display: flex;
+}
+
+header.header .header__logo-wrapper {
+    display: flex;
+    align-items: center;
+    margin-right: 0;
+    width: 600px;
+}
+
+.modal-header .header__logo-wrapper .modal-close {
+    position: absolute;
+    right: 35px;
+    top: 51px;
+    color: #000;
+    opacity: 1;
+    width: 19px;
+}
+
+.header-left-block .modal-header {
+    border: none;
+}
+
+.header-left-block .modal-footer {
+    border: none;
+}
+
+footer.footer .footer__logo-wrapper:not(footer.footer .footer__logo-wrapper.right-logo) {
+    margin-right: 61px;
+}
+
+.header__logo-wrapper__txt {
+    padding: 0 13px;
+    margin: 0;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #231F20;
+}
+
+.header-left-block .navbar-light .navbar-toggler-icon {
+    background-image: url(/wp-content/themes/polygonclub/assets/img/menu-btn.svg);
+}
+
+header .header-left-block .navbar-light .navbar-toggler {
+    border: none;
+}
+
+.navbar-nav .menu {
+    list-style: none;
+    display: flex;
+    padding: 0px;
+    margin-bottom: 0px;
+}
+
+.header__menu__items .menu {
+    list-style: none;
+    padding: 0px;
+}
+
+.header__menu__items .menu a {
+    color: #000;
+    font-weight: 500;
+    font-size: 26px;
+    display: inline-block;
+}
+
+nav.header__menu,
+.header__social-links,
+nav.footer__menu,
+.footer__social-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .header__menu__item hover-link,
+.footer__menu__item,
+.footer-phone-wrapper a {
+    display: inline-block;
+    position: relative;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #000;
+    padding: 0!important;
+}
+
+.footer__menu .menu {
+    padding: 0px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 0px;
+}
+
+.footer__menu {
+    display: flex;
+    align-items: center;
+}
+
+header .header__menu__item hover-link,
+.header__menu__item hover-link:hover {
+    color: #000 !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #000000 !important;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+header .navbar-toggler:focus {
+    box-shadow: 0 0 0 0.15rem;
+}
+
+.header-left-block .modal-content {
+    height: 100%;
+    align-items: center;
+    padding-top: 25px;
+    padding-bottom: 53px;
+    justify-content: space-between;
+    border: none;
+    border-radius: 0;
+}
+
+.header-left-block .modal-content .header__menu__items {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.header-left-block .modal-content .header__menu__item {
+    color: #000;
+    font-weight: 500;
+    font-size: 26px;
+    display: inline-block;
+}
+
+.header-left-block .modal-content .hover-link:hover::after {
+    content: none;
+}
+
+.header-left-block .modal-content .header__menu__item:hover {
+    color: #000;
+}
+
+.footer__menu__item:hover,
+.footer-phone-wrapper a:hover {
+    color: #fff;
+}
+
+.hover-link:hover::after {
+    display: block;
+    content: "";
+    height: 1px;
+    margin-top: -1px;
+    width: 100%;
+    background-color: #000;
+    transition: width .5s ease-in-out;
+    opacity: 1;
+    -webkit-transition: opacity 1s ease-out 0.5s;
+    -moz-transition: opacity 1s ease-out 0.5s;
+    -o-transition: opacity 1s ease-out 0.5s;
+    transition: opacity 1s ease-out 0.5s;
+}
+
+.footer__menu__item:hover::after {
+    background-color: #fff;
+}
+
+.header__menu__item hover-link:hover:after,
+.footer__menu__item:hover:after {
+    width: 100%;
+}
+
+.header__menu__item hover-link:not(:last-child),
+.footer__menu__item:not(:last-child) {
+    margin-right: 50px;
+}
+
+a.header__social-links__item,
+a.footer__social-links__item {
+    margin-left: 45px;
+}
+
+footer.footer {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: #000;
+    padding: 40px 60px;
+    color: #fff;
+}
+
+footer.footer .footer__main-block {
+    display: flex;
+    align-items: center;
+}
+
+footer.footer .footer-left-block {
+    margin-right: auto;
+}
+
+footer.footer .footer__info-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 73px;
+}
+
+.footer-right-block,
+.footer-center-block {
+    display: flex;
+}
+
+.footer-center-block {
+    margin-right: 115px;
+}
+
+footer.footer a {
+    color: #fff;
+}
+
+.footer-phone-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+footer.footer .footer__info-block .footer__info-block__item {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #CECECE;
+    margin: 0;
+}
+
+footer.footer .footer__info-block__item a {
+    color: #CECECE;
+}
+
+.footer-line {
+    position: absolute;
+    background: #2E2E2E;
+    height: 1px;
+    width: 99vw;
+    left: 0;
+    top: 58%;
+}
+
+
+/* Tours and concerts page */
+
+.posters {
+    position: relative;
+}
+
+.posters .top-banner {
+    height: 0;
+    padding-bottom: 34.25%;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    display: block;
+}
+
+.posters .posters__header {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0px;
+}
+
+.posters__header__btn {
+    padding: 13px 38px;
+}
+
+.posters .posters__header.tours-page {
+    margin-top: 58px;
+}
+
+.posters .posters__header .posters__header__title {
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 59px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.posters .posters__header .posters__header__btn input {
+    padding: 14px 38px;
+}
+
+.posters .posters__header .posters__header__btn input:hover {
+    transform: translateY(2px);
+    box-shadow: 0px 0px transparent, 0px 5px 10px rgb(0 0 0 / 11%);
+}
+
+.posters .posters__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    margin-top: 52px;
+    padding-left: 0px;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.posters .posters__wrapper .posters__wrapper__poster {
+    margin: 0 11px;
+    margin-bottom: 36px;
+    width: 23%;
+}
+
+.posters .posters__wrapper .small-poster.posters__wrapper__poster {
+    width: 18%;
+}
+
+.posters .posters__wrapper .posters__wrapper__poster__img {
+    position: relative;
+    width: 100%;
+    height: 485px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: grayscale(100%);
+}
+
+.posters .posters__wrapper .posters__wrapper__poster__img:hover {
+    filter: grayscale(0%);
+}
+
+.posters .posters__wrapper .small-poster .posters__wrapper__poster__img {
+    height: 289px;
+}
+
+.posters__wrapper__poster__wrap {
+    position: relative;
+}
+
+.posters__overlay {
+    position: relative;
+}
+
+.posters__overlay.no-link{
+    cursor: auto;
+}
+
+.posters p.posters__label {
+    visibility: visible;
+    position: absolute;
+    background: #fa4b14;
+    text-align: center;
+    padding: 7px 15px;
+    font-size: 15px;
+    color: #fff;
+    margin: 0;
+    top: 0px;
+    z-index: 1;
+}
+
+.posters .tours-page .posters__wrapper__poster__img p {
+    top: 0;
+    width: 63%;
+    bottom: inherit;
+}
+
+.posters .posters__wrapper .posters__wrapper__poster__info,
+.recomedation-wrapper .posters__wrapper__poster__info {
+    max-width: 242px;
+    margin: 0 auto;
+    margin-top: 34px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.posters__wrapper__poster__info .posters__wrapper__poster__info__ticket-link{
+    background: #fa4b14;
+    border: 3px solid #fa4b14;
+}
+
+.posters__wrapper__poster__info .posters__wrapper__poster__info__ticket-link:hover{
+    border: 3px solid #fa4b14;
+    color: #fa4b14;
+}
+
+.posters .posters__wrapper p.posters__wrapper__poster__info__date {
+    position: absolute;
+    width: 100%;
+    height: 34px;
+    bottom: 0;
+    margin: 0;
+    text-align: center;
+    top: auto;
+    display: inline-block;
+    padding: 5px;
+    background: #000;
+    color: #fff;
+}
+
+.banner-wrapper .info-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 56px 0;
+}
+
+.banner-wrapper .info-block .left-block,
+.banner-wrapper .info-block .right-block {
+    display: flex;
+    align-items: center;
+}
+
+.info-block .right-block .arrows-block {
+    display: flex;
+    justify-content: end;
+}
+
+.banner-wrapper .info-block .right-block a.button.detail-btn {
+    margin-right: 84px;
+}
+
+.arrow-left,
+.arrow-right {
+    cursor: pointer;
+    background: #000;
+    z-index: 2;
+    width: 42px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.arrows-block .arrow-left {
+    margin-right: 22px;
+}
+
+.info-block {
+    display: flex;
+    align-items: center;
+}
+
+.info-block__slider {
+    overflow: hidden;
+}
+
+.info-block__slider,
+.info-block .left-block,
+.info-block .right-block {
+    padding-bottom: 4px;
+}
+
+.info-block__slider .info-slide {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info-block .swiper-button-next,
+.info-block .swiper-button-prev {
+    display: none;
+}
+
+.info-block__dots .swiper-pagination {
+    position: inherit;
+    display: inline;
+}
+
+.info-block__dots span.swiper-pagination-bullet.swiper-pagination-bullet-active {
+    background-color: #000;
+}
+
+.info-block__dots span.swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+}
+
+.info-block__dots .slick-dots li button {
+    visibility: hidden;
+}
+
+.info-block__descr {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.info-block {
+    padding: 50px 0;
+}
+
+
+/* Artists page */
+
+.artists-page .posters__wrapper__poster__info__name,
+.recomedation-wrapper .posters__wrapper__poster__info__name {
+    text-transform: uppercase;
+}
+
+.artists-page.posters .posters__wrapper .posters__wrapper__poster__info,
+.recomedation-wrapper .posters__wrapper__poster__info {
+    margin-top: 17px;
+}
+
+.posters.artists-page {
+    position: relative;
+    padding: 68px 0;
+    padding-bottom: 58px;
+}
+
+
+/* Artists detail page */
+
+.artists-detail-section .posters .posters__wrapper .posters__wrapper__poster {
+    width: 384px;
+    margin-right: 30px;
+    margin-bottom: 36px;
+}
+
+.artists-detail-section .top-banner {
+    height: 497px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.artist-link {
+    position: relative;
+    margin-right: 104px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000;
+    text-decoration: underline !important;
+}
+
+.artist-link::before {
+    content: '';
+    background: url(/wp-content/themes/polygonclub/assets/img/icons/link.svg);
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    left: -37px;
+}
+
+.artist-link:hover {
+    color: #000;
+}
+
+.artist-info {
+    margin-top: 33px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.artist-info .right-block {
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    align-items: center;
+}
+
+.artist-social .artist-social__item:not(:last-child) {
+    margin-right: 20px;
+}
+
+.breadcrumbs a.breadcrumbs__item {
+    position: relative;
+    display: inline-block;
+    color: #000;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    margin-left: 8px;
+}
+
+.breadcrumbs a.breadcrumbs__item:hi .breadcrumbs svg {
+    width: 20px;
+    height: 20px;
+    transform: translateY(-1px);
+}
+
+.artists-detail-section-h1 {
+    margin-top: 21px !important;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 59px;
+}
+
+.artists-detail-section .booking-agent {
+    margin: 40px 0;
+    display: flex;
+    align-items: center;
+}
+
+.artists-detail-section .booking-agent .left-block {
+    margin-right: 78px;
+}
+
+.artists-detail-section .booking-agent .booking-agent__btn {
+    padding: 11px 33px;
+    margin-right: 31px;
+    margin-top: 18px;
+}
+
+.artists-detail-section .booking-agent .booking-agent__titile {
+    margin-right: 6%;
+    font-weight: 500;
+    font-size: 42px;
+    text-transform: uppercase;
+}
+
+.artists-detail-section .booking-agent .booking-agent__name {
+    margin-bottom: 0px;
+    position: relative;
+    width: auto;
+    display: flex;
+    align-items: center;
+}
+
+.artists-detail-section .booking-agent .booking-agent__info {
+    display: flex;
+    width: 50%;
+    justify-content: flex-end;
+}
+
+.artists-detail-section .booking-agent .booking-agent__info a {
+    line-height: 32px;
+    color: #fff;
+    font-size: 1.75rem;
+    font-weight: 500;
+    margin-left: 24px;
+    padding-left: 24px;
+}
+
+.artists-detail-section .booking-agent .booking-agent__right-block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.artists-detail-section .booking-agent .booking-agent__right-block .booking-agent__right-block-date {
+    display: flex;
+    align-items: center;
+    width: 75%;
+}
+
+.artists-detail-section .booking-section {
+    margin-top: 44px;
+    background: #000000;
+    color: #fff;
+}
+
+section.performances {
+    margin-top: 85px;
+    position: relative;
+    padding-bottom: 130px;
+}
+
+.performances .row {
+    max-width: 100%;
+    margin: 0;
+}
+
+.performances-info__player {
+    max-width: 100%;
+    float: right;
+    overflow: hidden;
+    position: absolute;
+    height: 100%;
+    min-height: 500px;
+    right: 40px;
+    top: 0px;
+    max-height: 860px;
+}
+
+.performances-info__player iframe {
+    width: 375px;
+}
+
+.performances-info__player img {
+    max-width: 100%;
+}
+
+.gray-line {
+    position: absolute;
+    top: auto;
+    bottom: 0;
+    background: #F0F0F0;
+    height: 1px;
+    width: 99vw;
+    left: 0;
+}
+
+.performances__title,
+.performances .performances-info p {
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    color: #2F2F2F
+}
+
+.performances-info .performances-info__social {
+    padding: 18px 0;
+    padding-right: 28px;
+    margin-bottom: 61px;
+    background: #F9F9F9;
+    display: inline-block;
+}
+
+.performances-list .performances-list__item {
+    padding: 21px 15px;
+}
+
+.performances-list__item.not-active {
+    order: 2;
+}
+
+.performances-list {
+    display: flex;
+    flex-flow: column;
+}
+
+.performances-list__item.not-active .performances-list__item__info p {
+    color: #B8B8B8;
+}
+
+.performances-list__item.not-active .performances-list__item__info p:first-child {
+    text-decoration-line: line-through;
+}
+
+.performances-list__item.not-active .performances-list__item__info__img {
+    pointer-events: none;
+    cursor: default;
+    background: #DDDDDD;
+}
+
+.performances-list__item.not-active .performances-list__item__info .active-tour-btn,
+.not-active-tour-btn {
+    display: none;
+    ;
+}
+
+.performances-list__item.not-active .performances-list__item__info .not-active-tour-btn {
+    display: block;
+    ;
+    background: #F0F0F0;
+    border: #DDDDDD;
+    color: #000;
+    padding: 13px 61px;
+    pointer-events: none;
+    cursor: default;
+}
+
+.performances-info .performances-info__social a.performances-info__social__item {
+    margin-left: 28px;
+}
+
+.performances-list .performances-list__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 21px 15px;
+}
+
+.performances-list .performances-list__item:nth-child(odd) {
+    background: #F9F9F9;
+}
+
+.performances-list__item__info.date-info {
+    width: 10%;
+}
+
+.performances-list__item__info.btns-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    width: 335px;
+}
+
+.performances-list__item__info-wrap {
+    display: flex;
+}
+
+.performances-list__item__info.city-info {
+    width: 30%;
+}
+
+.performances-list__item__info p {
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 28px;
+    color: #000000;
+    margin-bottom: 3px;
+}
+
+a.performances-list__item__info__img img {
+    min-width: 16px;
+}
+
+.performances-list__item__info p.gray-txt {
+    font-size: 16px;
+    line-height: 20px;
+    color: #B8B8B8;
+}
+
+.performances-list__item__info input[type="button"],
+.posters__wrapper__poster__info__ticket-link,
+.performances-list__item__info a.button {
+    background: #000;
+    color: #fff;
+    padding: 10px 45px;
+    text-align: center;
+}
+
+.performances-list__item__info input[type="button"]:hover,
+.posters__wrapper__poster__info__ticket-link:hover,
+.performances-list__item__info a.button:hover {
+    background: #fff;
+    color: #000;
+}
+
+.performances-list__item__info__img {
+    padding: 12px 13px;
+    display: inline-block;
+    transition: 0.7s;
+}
+
+.performances-list__item__info__img.vk {
+    background: #0077FF;
+}
+
+.performances-list__item__info__img.fb {
+    background: #0061A3;
+}
+
+.performances .col-8 {
+    padding-right: 25px;
+}
+
+.artists-detail-section .posters__header__all,
+.performances .performances-link {
+    position: relative;
+    display: inline-block;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.performances-list__item__info .performances-list__item__info__sm-buy-button {
+    display: none;
+    position: relative;
+    width: 46px;
+    height: 46px;
+    border-radius: 3px;
+}
+
+.performances-list__item__info .performances-list__item__info__sm-buy-button::after {
+    content: '';
+    width: 81%;
+    height: 64%;
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    top: 50%;
+    transform: translate(-53%, -50%);
+    background: url(/img/icons/buy.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.modal-body.cooperation .wpcf7-form .cooperation-form__left-block {
+    width: 100%;
+    max-width: 100%;
+}
+
+.modal-body.cooperation .wpcf7-form .cooperation-form__right-block {
+    width: 100%;
+    max-width: 100%;
+    margin-left: 0px;
+}
+
+.modal-body.cooperation .cooperation-text {
+    margin-top: 0px;
+}
+
+.modal .cooperation .wpcf7-form {
+    margin-top: 0px;
+}
+
+
+/* cooperation form */
+
+section.cooperation {
+    padding-top: 58px;
+    padding-bottom: 115px;
+}
+
+.cooperation .form-block {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column
+}
+
+.cooperation .wpcf7-form {
+    display: flex;
+    margin-top: 41px;
+    flex-flow: column;
+}
+
+.cooperation .cooperation__title {
+    font-weight: 500;
+    font-size: 42px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.cooperation .wpcf7-form input,
+.cooperation .wpcf7-form select,
+.cooperation .wpcf7-form textarea {
+    background: #FFFFFF;
+    border: 1px solid #BCBCBC;
+    font-size: 18px;
+    line-height: 22px;
+    color: #8D8D8D;
+    padding: 11px 17px;
+    margin-bottom: 17px;
+    width: 100%;
+}
+
+.cooperation .wpcf7-form select {
+    padding: 11px 10px;
+    margin-bottom: 0px;
+}
+
+.cooperation .wpcf7-form .cooperation-form__left-block {
+    max-width: 100%;
+}
+
+.cooperation .wpcf7-form .cooperation-form__right-block {
+    max-width: 100%;
+}
+
+.cooperation .wpcf7-form .cooperation-form__right-block textarea {
+    margin-bottom: 7px;
+}
+
+.cooperation-form__right-block input[type=submit] {
+    border: 2px solid #000000;
+    color: #000;
+    font-weight: 500;
+    font-size: 18px;
+    padding: 10px 17px;
+}
+
+.cooperation-form__right-block input[type=submit]:hover {
+    border: 2px solid #000000;
+    color: #fff;
+    background: #000;
+}
+
+.cooperation .cooperation-text {
+    font-size: 12px;
+    line-height: 22px;
+    color: #000000;
+    margin-top: 30px;
+}
+
+
+/* about us page */
+
+.about-us-page {
+    position: relative;
+    margin-top: 50px;
+}
+
+.about-us-page__title {
+    font-weight: 500;
+    font-size: 38px;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.about-us-page__descr {
+    font-size: 18px;
+    line-height: 32px;
+    margin-top: 50px;
+}
+
+.recomedation {
+    position: relative;
+    padding-bottom: 58px;
+}
+
+.recomedation-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.small-poster .posters__wrapper__poster__img {
+    width: 100%;
+    height: 356px;
+}
+
+.contacts {
+    margin-top: 120px;
+    padding-bottom: 114px;
+    position: relative;
+}
+
+.contact-section {
+    display: flex;
+}
+
+.contact-section .about-us-page__title {
+    width: 22%;
+}
+
+.contact-section__wrap {
+    width: 36%;
+}
+
+.contact-section__item .contact-section__item__subtitle {
+    font-weight: 500;
+    font-size: 19px;
+    text-transform: uppercase;
+    color: #B4B4B4;
+    margin-bottom: 26px;
+}
+
+.contact-section__item {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 97px;
+}
+
+.contact-section__item a {
+    font-weight: 600;
+    font-size: 25px;
+    color: #000;
+    margin-right: 32px;
+}
+
+.contact-section__item a:not(a.contact-section-links__item) {
+    text-decoration: underline !important;
+}
+
+.contact-section-links {
+    margin-top: 16px;
+}
+
+.contact-section-links__item img {
+    max-width: 30px;
+}
+
+.contact-section__items {
+    display: flex;
+    width: 80%;
+}
+
+.arrows-block {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 41px;
+}
+
+.arrow-left svg,
+.arrow-right svg {
+    width: 16px;
+}
+
+.arrow-left svg path,
+.arrow-right svg path {
+    fill: #fff;
+}
+
+.header-left-block .navbar-expand-lg .navbar-nav .menu li:nth-child(1) .nav-link {
+    padding-left: 0px;
+}
+
+.footer__logo-wrapper img {
+    width: 215px;
+}
+
+.footer__social-links img {
+    min-width: 16px;
+}
+
+.footer__menu .menu li:nth-child(1) .nav-link {
+    padding-left: 0px;
+}
+
+footer.footer .footer__menu a {
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.cooperation.coop_posters .cooperation__title {
+    font-size: 20px;
+    margin-bottom: 0px;
+    margin-top: 20px;
+}
+
+.coop_posters.cooperation .form-block {
+    border: 1px solid #eee;
+    padding: 25px;
+    background: #fff;
+}
+
+.coop_posters.cooperation .wpcf7-form {
+    margin-top: 20px;
+}
+
+.coop_posters.cooperation .cooperation-text {
+    margin-top: 0px;
+}
+
+button.open_widget {
+    border: 0px;
+    background: #ffffff;
+    color: #000;
+    border: 2px solid #ffffff;
+    padding: 13px 25px;
+    z-index: 1;
+    position: relative;
+    top: -35px;
+}
+
+.button__widget {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.button__widget:before {
+    background: linear-gradient(0deg, rgb(0 0 0 / 67%), transparent);
+    content: '';
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    border-radius: 0px 0px 30px 30px;
+}
+
+.performances-info {
+    position: relative;
+    overflow: hidden;
+}
+
+.performances-info:before {
+    content: '';
+    min-height: 640px;
+    position: relative;
+    display: block;
+    width: 1px;
+}
+
+.show .button__widget:before {
+    display: none;
+}
+
+.show.performances-info:before,
+.show.performances-info:before {
+    display: none;
+}
+
+.show .performances-info__player {
+    min-height: 100%;
+    max-height: 100%;
+    position: relative;
+}
+
+.show button.open_widget {
+    background: #000;
+    color: #fff;
+}
+
+button.open_widget span:nth-child(2) {
+    display: none;
+}
+
+.show button.open_widget span:nth-child(1) {
+    display: none;
+}
+
+.show button.open_widget span:nth-child(2) {
+    display: block;
+}
+
+h2.booking-title {
+    margin-bottom: 0px;
+}
+
+.artists-detail-section .booking-agent h2,
+.artists-detail-section .booking-agent h3,
+.artists-detail-section .booking-agent .booking-agent__info a {
+    font-size: 22px;
+    margin-bottom: 0px;
+}
+
+h3.booking-agent__name:before {
+    content: '';
+    top: 12px;
+    right: 0px;
+    width: 135px;
+    display: block;
+    height: 2px;
+    background: #fff;
+    margin-right: 35px;
+}
+
+h3.booking-title {
+    min-width: 180px;
+}
+
+section.posters.posters__card {
+    padding-bottom: 105px;
+    padding-top: 30px;
+}
+
+.artist-content__video {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 55px;
+}
+
+.artist-content__video iframe {
+    height: 510px;
+    width: 50%;
+    padding: 5px;
+}
+
+section.artist__content {
+    padding: 100px 0px;
+}
+
+.artist__content h2 {
+    margin-bottom: 25px;
+    margin-top: 45px;
+}
+
+.artist__content h2:nth-child(1) {
+    margin-bottom: 25px;
+    margin-top: 0px;
+}
+
+.performances-list__item__info-wrap a {
+    margin-right: 5px;
+}
+
+.left-agent {
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+h3.booking-agent__name {
+    width: auto;
+}
